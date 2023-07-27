@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Say Hello') {
       steps {
-        sh 'python say_hello.py Jenkins'
+        sh 'python3 basic-2.py'
       }
     }
   }
